@@ -1,3 +1,4 @@
+//footer
 
 <footer class="space-2 ">
 	<div class="container">
