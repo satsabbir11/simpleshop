@@ -7,7 +7,7 @@ get_header();
 ?>
 	<!--hero section start-->
 	<div id="home">
-		<section class="hero js_full_height base-gradient- " style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hero.jpg');">
+		<section class="hero js_full_height base-gradient- " style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/hero.jpg');">
 			<div class="hero-content">
 				<div class="container">
 					<div class="row">
@@ -64,7 +64,7 @@ get_header();
 							<li class="product type-product post-17 status-publish instock product_cat-accessories has-post-thumbnail sale featured shipping-taxable purchasable product-type-simple">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p1.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p1.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -96,7 +96,7 @@ get_header();
 							<li class="product">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p2.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p2.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -117,7 +117,7 @@ get_header();
 							<li class="product last">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p3.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p3.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -138,7 +138,7 @@ get_header();
 							<li class="product">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p4.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p4.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -159,7 +159,7 @@ get_header();
 							<li class="product">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p5.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p5.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -180,7 +180,7 @@ get_header();
 							<li class="product last">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p6.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p6.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -201,7 +201,7 @@ get_header();
 							<li class="product">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p7.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p7.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -222,7 +222,7 @@ get_header();
 							<li class="product">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p8.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p8.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -243,7 +243,7 @@ get_header();
 							<li class="product last">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p9.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p9.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -264,7 +264,7 @@ get_header();
 							<!--default woocommerce markup-->
 							<!--<li class="product">
 							<a href="#" class="#">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p12.jpg" alt="">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p12.jpg" alt="">
 								<h2 class="woocommerce-loop-product__title">Vneck Tshirt</h2>
 
 								<span class="price">
@@ -293,7 +293,7 @@ get_header();
 					<div class="col-md-12">
 						<div class="promo-box space-3">
 							<div class="promo-img rounded bg-overlay" data-overlay="1"
-							     style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/sb.jpg);"></div>
+							     style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/sb.jpg);"></div>
 							<div class="container">
 								<div class="row justify-content-center align-items-center text-center">
 									<div class="col-md-8">
@@ -333,7 +333,7 @@ get_header();
 							<li class="product">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p10.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p10.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -354,7 +354,7 @@ get_header();
 							<li class="product">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p11.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p11.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -375,7 +375,7 @@ get_header();
 							<li class="product last">
 								<div class="product-wrap">
 									<a href="#" class="">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/p12.jpg" alt="">
+										<img src="<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/p12.jpg" alt="">
 									</a>
 									<a href="#" class="button product_type_simple add_to_cart_button ajax_add_to_cart">
 										<i class="fa fa-shopping-basket"></i>
@@ -443,12 +443,12 @@ get_header();
 				</div>
 			</div>
 			<div class="flickr-list">
-				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/s1.jpg')"></a>
-				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/sb.jpg')"></a>
-				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/s2.jpg')"></a>
-				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/s3.jpg')"></a>
-				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/s4.jpg')"></a>
-				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/s5.jpg')"></a>
+				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/s1.jpg')"></a>
+				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/sb.jpg')"></a>
+				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/s2.jpg')"></a>
+				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/s3.jpg')"></a>
+				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/s4.jpg')"></a>
+				<a href="#" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets//<?php get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/assets/img/s5.jpg')"></a>
 			</div>
 		</section>
 		<!-- flickr section end-->
