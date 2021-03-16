@@ -14,9 +14,12 @@ if(class_exists('Kirki'))
         'description' => esc_html__( 'SimpleShop Settings', 'simpleshop' ),
     ) );
     Kirki::add_section( 'simpleshop_homepage', array(
-        'title'          => esc_html__( 'Homeage Settings', 'kirki' ),
-        'panel'          => SIMPLESHOP_CUSTOMIZER_PANEL_ID,
-        'priority'       => 160,
+        'title'            => esc_html__( 'Homeage Settings', 'kirki' ),
+        'panel'            => SIMPLESHOP_CUSTOMIZER_PANEL_ID,
+        'priority'         => 160,
+        'active_callback'  => function(){
+                return is_page_template('page-templates/homepage.php');
+            }
     ) );
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [
         'type'     => 'text',
