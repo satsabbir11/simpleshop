@@ -22,6 +22,18 @@ if(class_exists('Kirki'))
             }
     ) );
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [
+        'type'        => 'switch',
+        'settings'    => 'switch_setting',
+        'label'       => esc_html__( 'This is the label', 'kirki' ),
+        'section'     => 'section_id',
+        'default'     => '1',
+        'priority'    => 10,
+        'choices'     => [
+            'on'  => esc_html__( 'Enable', 'kirki' ),
+            'off' => esc_html__( 'Disable', 'kirki' ),
+        ],
+    ] );
+    Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [
         'type'     => 'text',
         'settings' => 'text_setting',
         'label'    => esc_html__( 'Text Control', 'simpleshop' ),
