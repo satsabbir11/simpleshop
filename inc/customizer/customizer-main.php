@@ -14,31 +14,33 @@ if(class_exists('Kirki'))
         'description' => esc_html__( 'SimpleShop Settings', 'simpleshop' ),
     ) );
     Kirki::add_section( 'simpleshop_homepage', array(
-        'title'            => esc_html__( 'Homeage Settings', 'kirki' ),
+        'title'            => esc_html__( 'Homeage Settings', 'simpleshop' ),
         'panel'            => SIMPLESHOP_CUSTOMIZER_PANEL_ID,
         'priority'         => 160,
         'active_callback'  => function(){
                 return is_page_template('page-templates/homepage.php');
             }
     ) );
+    
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [
         'type'        => 'switch',
-        'settings'    => 'switch_setting',
-        'label'       => esc_html__( 'This is the label', 'kirki' ),
-        'section'     => 'section_id',
+        'settings'    => 'simpleshop_homepage_display_categories',
+        'label'       => esc_html__( 'Display Categories Section', 'simpleshop' ),
+        'section'     => 'simpleshop_homepage',
         'default'     => '1',
         'priority'    => 10,
         'choices'     => [
-            'on'  => esc_html__( 'Enable', 'kirki' ),
-            'off' => esc_html__( 'Disable', 'kirki' ),
+            'on'  => esc_html__( 'Dispaly', 'simpleshop' ),
+            'off' => esc_html__( 'Hide', 'simpleshop' ),
         ],
     ] );
+
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [
         'type'     => 'text',
         'settings' => 'text_setting',
         'label'    => esc_html__( 'Text Control', 'simpleshop' ),
         'section'  => 'simpleshop_homepage',
-        'default'  => esc_html__( 'This is a default value', 'simpleshop' ),
+        'default'  => esc_html__( 'Shop By Category', 'simpleshop' ),
         'priority' => 10,
     ] );
 }
