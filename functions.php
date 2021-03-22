@@ -81,3 +81,11 @@ function simpleshop_assets(){
 	}
 }
 add_action('wp_enqueue_scripts','simpleshop_assets');
+
+function simpleshop_subcategory_count_html($markup){
+	if(get_theme_mod('simpleshop_homepage_display_categories_number') !='1'){
+		return '';
+	}
+	return $markup;
+}
+add_filter('woocommerce_subcategory_count_html','simpleshop_subcategory_count_html');

@@ -51,6 +51,42 @@ if(class_exists('kirki'))
          ],
     ] );
 
+    Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//new1
+        'type'        => 'switch',
+        'settings'    => 'simpleshop_homepage_display_categories_number',
+        'label'       => esc_html__( 'Display Number Beside Categories', 'simpleshop' ),
+        'section'     => 'simpleshop_homepage',
+        'default'     => '1',
+        'priority'    => 10,
+        'choices'     => [
+            'on'  => esc_html__( 'Display', 'simpleshop' ),
+            'off' => esc_html__( 'Hide', 'simpleshop' ),
+        ],
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_categories',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
+    ] );
+
+    Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//new2
+        'type'     => 'text',
+        'settings' => 'simpleshop_homepage_categories_col',
+        'label'    => esc_html__( 'Number of column', 'simpleshop' ),
+        'section'  => 'simpleshop_homepage',
+        'default'  => 4,
+        'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_categories',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
+    ] );
+
     
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//3
         'type'        => 'switch',
