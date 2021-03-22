@@ -42,6 +42,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'Shop By Category', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_categories',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     
@@ -65,6 +72,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'New Arrival', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_product',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//5
@@ -74,6 +88,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'All New product here', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_product',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//6
@@ -96,6 +117,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'Sale', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_promo',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//8
@@ -105,6 +133,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'Up to 50% off', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_promo',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//9
@@ -114,6 +149,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'in store and online', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_promo',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     // Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [
@@ -145,6 +187,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'Popular Products', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_popular',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//12
@@ -167,6 +216,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'Free Shipping', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_offer',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//14
@@ -176,6 +232,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'On all order over $39.00', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_offer',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//15
@@ -185,6 +248,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( '30 Days Return', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_offer',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//16
@@ -194,6 +264,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'Money back Guarantee', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_offer',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//17
         'type'     => 'text',
@@ -202,6 +279,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'Secure Checkout', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_offer',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//18
@@ -211,6 +295,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( '100% Protected by paypal', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_offer',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 
     Kirki::add_field( SIMPLESHOP_CUSTOMIZER_CONFIG_ID, [//19
@@ -233,6 +324,13 @@ if(class_exists('kirki'))
         'section'  => 'simpleshop_homepage',
         'default'  => esc_html__( 'Simple Shop on Flickr', 'simpleshop' ),
         'priority' => 10,
+        'active_callback' => [
+            [
+                'setting'  => 'simpleshop_homepage_display_flickr',
+                'operator' => '==',
+                'value'    => true,
+            ]
+         ],
     ] );
 }
 
