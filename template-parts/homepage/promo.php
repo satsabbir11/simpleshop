@@ -1,4 +1,7 @@
  <!--promo section start-->
+ <?php
+ if(get_theme_mod('simpleshop_homepage_display_promo',true)):
+    ?>
  <section>
         <div class="container">
             <div class="row">
@@ -10,11 +13,11 @@
                                 <div class="col-md-8">
                                     <!-- heading -->
                                     <h2 class="text-white mb-0 promo-title">
-                                        Sale
+                                    <?php echo get_theme_mod('simpleshop_homepage_promo_title')?>
                                     </h2>
-                                    <h3 class="text-white promo-sub-title mt-0">Up to 50% off</h3>
+                                    <h3 class="text-white promo-sub-title mt-0"><?php echo get_theme_mod('simpleshop_homepage_promo_sub-title')?></h3>
 
-                                    <a href="#" class="promo-link">in store and online</a>
+                                    <a href="#" class="promo-link"><?php echo get_theme_mod('simpleshop_homepage_promo_link')?></a>
                                 </div>
                             </div>
                         </div>
@@ -24,4 +27,7 @@
             </div>
         </div>
     </section>
+    <?php
+    endif;
+    ?>
     <!--promo section end-->
